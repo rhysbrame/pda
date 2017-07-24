@@ -18,7 +18,7 @@ Calculator.prototype = {
   multiply: function(number){
     this.runningTotal = parseFloat(this.previousTotal) * parseFloat(number);
   },
-
+//altered the divide function
   divide: function(number){
     if(number===0){
       this.runningTotal = 0
